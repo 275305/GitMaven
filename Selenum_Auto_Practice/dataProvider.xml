@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="dataPriderSuite" time-out="5000">
+<parameter name="empName" value="Smith"/>
+<parameter name="empAddress" value="India"/>
+<test name="testMakeMyTrip">
+<classes>
+<class name="data.provider.by.parameter.ParameterWithTestngXml"/>
+</classes>
+</test>
+</suite>

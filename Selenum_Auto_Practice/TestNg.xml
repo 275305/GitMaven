@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PradeepTestSuit" parallel="methods">
+<suite-files>
+<suite-file path="CrossBrowser.xml"></suite-file>
+</suite-files>
+
+<test name="TestMyProject">
+<classes>
+<class name="com.parallelTest.ParallelExecution"></class>
+<class name="com.parallelTest.ParallelExecution2"></class>
+</classes>
+</test>
+</suite>

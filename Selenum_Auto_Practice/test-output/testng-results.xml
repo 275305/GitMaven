@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="JenkinsSuite" duration-ms="10792" started-at="2019-05-29T15:36:40Z" finished-at="2019-05-29T15:36:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10792" started-at="2019-05-29T15:36:40Z" finished-at="2019-05-29T15:36:51Z">
+      <class name="com.compile.surefire.jenkins.DriverTestByJenkins">
+        <test-method status="PASS" signature="getChromeBrowser()[pri:0, instance:com.compile.surefire.jenkins.DriverTestByJenkins@4671e53b]" name="getChromeBrowser" duration-ms="10092" started-at="2019-05-29T15:36:40Z" finished-at="2019-05-29T15:36:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getChromeBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.compile.surefire.jenkins.DriverTestByJenkins@4671e53b]" name="afterTest" is-config="true" duration-ms="628" started-at="2019-05-29T15:36:50Z" finished-at="2019-05-29T15:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.compile.surefire.jenkins.DriverTestByJenkins -->
+    </test> <!-- Test -->
+  </suite> <!-- JenkinsSuite -->
+</testng-results>

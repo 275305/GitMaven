@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CrossBrowserTest]" time-out="8000">
+  <test thread-count="5" name="FireFox BrowserTest(failed)" time-out="8000">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.crossBrowser.CrossBrowserTesting">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getChromeBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.crossBrowser.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- FireFox BrowserTest(failed) -->
+</suite> <!-- Failed suite [CrossBrowserTest] -->
